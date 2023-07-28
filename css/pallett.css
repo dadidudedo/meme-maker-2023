@@ -1,0 +1,46 @@
+.color-option {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 5px solid rgba(0, 0, 0, 0.2);
+  transition: transform ease-in-out 0.2s;
+}
+.color-option:hover {
+  transform: scale(1.1);
+}
+
+.color-column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#color-options {
+  display: flex;
+  gap: 20px;
+}
+#color-pallett {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+}
+
+#color {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 100px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+#color::-webkit-color-swatch {
+  border-radius: 15px;
+  border: 5px solid rgba(0, 0, 0, 0.2);
+}
+#color::-moz-color-swatch {
+  border-radius: 15px;
+  border: 5px solid rgba(0, 0, 0, 0.2);
+}

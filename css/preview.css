@@ -1,0 +1,12 @@
+#preview {
+  background-color: white;
+  border-radius: 20px;
+  width: 300px;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+  box-sizing: border-box;
+}
