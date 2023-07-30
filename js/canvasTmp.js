@@ -7,12 +7,9 @@ canvasTemp.onmouseup = () => {
   img.onload = () => {
     ctx.drawImage(img, 0, 0);
     if (isMoved) {
-      console.log("push");
       saveState();
     }
-    console.log(isMoved);
     isMoved = false;
-    console.log(isMoved);
     tmpCtx.clearRect(0, 0, CANVAS_WIDTH, CANVAS_WIDTH);
   };
 };

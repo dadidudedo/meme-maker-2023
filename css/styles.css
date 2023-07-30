@@ -12,8 +12,8 @@
 }
 
 #canvas canvas:first-child {
-  width: 800px;
-  height: 800px;
+  width: 700px;
+  height: 700px;
   border: 5px solid skyblue;
   background-color: white;
   border-radius: 30px;
@@ -55,8 +55,8 @@ body {
   z-index: 10;
 }
 #canvas-tmp {
-  width: 800px;
-  height: 800px;
+  width: 700px;
+  height: 700px;
   border-radius: 30px;
   border: 5px solid skyblue;
 }

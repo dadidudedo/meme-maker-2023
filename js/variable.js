@@ -53,8 +53,8 @@ const optionMenuStyle = document.querySelector(".select-menu__style"),
   optionsStyle = optionMenuStyle.querySelectorAll(".option"),
   sBtn_textStyle = optionMenuStyle.querySelector(".sBtn-text");
 
-const CANVAS_WIDTH = 800;
-const CANVAS_HEIGTH = 800;
+const CANVAS_WIDTH = 700;
+const CANVAS_HEIGTH = 700;
 const PREVIEW_WIDTH = 300;
 const PREVIEW_HEIGTH = 250;
 

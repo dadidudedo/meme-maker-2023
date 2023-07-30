@@ -1,7 +1,4 @@
-console.log(isMoved);
 saveState();
-console.log(isMoved);
-
 drawPreview();
 function drawPreview() {
   preCtx.clearRect(0, 0, PREVIEW_WIDTH, PREVIEW_HEIGTH);
