@@ -1,10 +1,9 @@
-.btns,
-.addtive-btns {
+.btns {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 30px;
+  width: 300px;
 }
 .half-button,
 button,
@@ -21,13 +20,14 @@ input#text {
   cursor: pointer;
   border-radius: 20px;
   opacity: 0.8;
-  width: 300px;
+  width: 100%;
   transition: opacity ease-in-out 0.2s;
 }
 #figure-btns,
 #style-btns,
 #mode-btns {
   all: unset;
+  margin-top: 30px;
   background-color: #ececec;
   display: flex;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
@@ -44,13 +44,6 @@ input#text {
 input#file {
   display: none;
 }
-#canvas__btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 50px;
-  width: 100%;
-}
 .rangeInput {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -64,6 +57,7 @@ input#file {
     #ececec 100%
   );
   border-radius: 15px;
+  margin-top: 30px;
   outline: none;
   transition: background 450ms ease-in, accent-color 0.2s ease-in;
   transform: scale(2);
@@ -94,4 +88,16 @@ input#file {
 }
 .chosen-btn {
   opacity: 1;
+}
+.addtive-btns {
+  margin-top: 80px;
+}
+.basic-btns,
+.addtive-btns {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  width: 200px;
 }

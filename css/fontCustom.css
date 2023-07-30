@@ -1,8 +1,21 @@
-#customText {
+.customText {
+  visibility: hidden;
   display: flex;
+  height: 0;
   width: 100%;
   padding: 0;
+  margin: 0;
+  opacity: 0;
   justify-content: space-between;
+  z-index: -1;
+  transition: all ease-in-out 0.3s;
+}
+.customText__act {
+  opacity: 1;
+  visibility: visible;
+  margin-top: 30px;
+  height: 55px;
+  z-index: 10;
 }
 .select-menu {
   width: 145px;
@@ -30,11 +43,14 @@
   background-color: white;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
   opacity: 0;
-  visibility: hidden;
+  display: none;
   transition: all ease-in-out 0.3s;
 }
 .select-menu.active .options {
-  visibility: visible;
+  z-index: 10;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
   opacity: 1;
 }
 .select-btn i {
